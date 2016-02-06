@@ -216,7 +216,7 @@ MEDIA_URL = STATIC_URL + "media/"
 MEDIA_ROOT = os.path.join(PROJECT_ROOT, *MEDIA_URL.strip("/").split("/"))
 
 # Package/module name to import the root urlpatterns from for the project.
-ROOT_URLCONF = "%s.urls" % PROJECT_DIRNAME
+ROOT_URLCONF = "%s.urls" % PROJECT_APP
 
 TEMPLATES = [
     {
